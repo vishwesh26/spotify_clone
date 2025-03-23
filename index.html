@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=download_for_offline"
+    />
+    <link rel="stylesheet" href="st.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assests/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="nav-logo">
+          <img src="assests/Spotify-icon.png" alt="" class="sp-logo" />
+        </div>
+
+        <div class="nav-2">
+          <div class="nav-home"><i class="fa-solid fa-house home"></i></div>
+          <div class="nav-input">
+            <div id="input">
+              <label for="search" class="glass"
+                ><i class="fa-solid fa-magnifying-glass glass1"></i
+              ></label>
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="input"
+                placeholder="What do you want to play?"
+              />
+            </div>
+            <div id="line">|</div>
+            <div id="folder">
+              <img src="assests/converted-image.png" id="folder" />
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-3">
+          <div class="nav3-button">
+            <button class="nav-btn btns">
+              <strong>Explore Premium</strong>
+            </button>
+          </div>
+          <div class="nav3-icon">
+            <p>
+              <span class="material-symbols-outlined">
+                download_for_offline
+                <p id="app">&ensp;<strong>Install App</strong></p>
+              </span>
+            </p>
+          </div>
+          <div class="nav3-bell"><i class="fa-regular fa-bell"></i></div>
+          <div class="nav3-profile">
+            <img src="assests/profile img.png" id="profile" alt="profile" />
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="library">
+          <div class="options">
+            <div class="lib-option">
+              <img src="assests/library_icon.png" alt="" />
+              <strong>Your Library</strong>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we we'll help you</p>
+              <button class="badge btns">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge btns">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="content">
+          <div class="content-options">
+            <button class="option-btn btn1">All</button>
+            <button class="option-btn">Music</button>
+            <button class="option-btn">Podcasts</button>
+          </div>
+
+          <div class="collections">
+            <div class="featured">
+              <div class="feature-p1"><a href="">Featured Charts</a></div>
+              <div class="feature-p2">Show all</div>
+            </div>
+          </div>
+
+          <div class="music-top-list">
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/top50_ind.jpg" alt="" />
+              </div>
+              <div class="music-text">Your daily update of the most</div>
+              <div class="music-text">played tracks right no.....</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/top_weekly.jpg" alt="" />
+              </div>
+              <div class="music-text">Your weekly update of the most</div>
+              <div class="music-text">played tracks right no.....</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/top-global.jpg" alt="" />
+              </div>
+              <div class="music-text">Your daily update of the most</div>
+              <div class="music-text">played tracks right no.....</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/top-50.jpg" alt="" />
+              </div>
+              <div class="music-text">Your daily update of the most viral</div>
+              <div class="music-text">tracks right now - Ind...</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/topsong-global.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                Your weekly update of the most played
+              </div>
+              <div class="music-text">tracks right now - Glo...</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/viral-global.jpg" alt="" />
+              </div>
+              <div class="music-text">Your daily update of the most viral</div>
+              <div class="music-text">tracks right now - Glo...</div>
+            </div>
+          </div>
+          <div class="collections">
+            <div class="featured">
+              <div class="feature-p1"><a href="">Shows to try</a></div>
+              <div class="feature-p2">Show all</div>
+            </div>
+          </div>
+
+          <div class="music-top-list">
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/nonew.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                No New Notifications from Kanan & Manek
+              </div>
+              <div class="music-text">Kanan Gill & Manek D’Silva</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/untriggered.jpg" alt="" />
+              </div>
+              <div class="music-text">Untriggered with AminJaz</div>
+              <div class="music-text">AminJaz</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/sothisislove.jpg" alt="" />
+              </div>
+              <div class="music-text">So This Is Love</div>
+              <div class="music-text">Julia Gaitho</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/drsandio.jpg" alt="" />
+              </div>
+              <div class="music-text">Dr. Sandeep Patil podcast.</div>
+              <div class="music-text">Dr. Sandeep Patil</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/modernwisdom.jpg" alt="" />
+              </div>
+              <div class="music-text">Modern Wisdom</div>
+              <div class="music-text">Chris williamson</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/crimejunk.jpg" alt="" />
+              </div>
+              <div class="music-text">Crime Junkie</div>
+              <div class="music-text">Audiochuck</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/learntoearn.jpg" alt="" />
+              </div>
+              <div class="music-text">LEARN TO EARN</div>
+              <div class="music-text">learntoearn</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/thelastpodcast.jpg" alt="" />
+              </div>
+              <div class="music-text">Last Podcast On The Left</div>
+              <div class="music-text">The Last Podcast Network</div>
+            </div>
+          </div>
+          <div class="collections">
+            <div class="featured">
+              <div class="feature-p1"><a href="">India's Best</a></div>
+              <div class="feature-p2">Show all</div>
+            </div>
+          </div>
+
+          <div class="music-top-list">
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/hottest.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                Hottest tracks from your favourite I-Pop Icons.
+              </div>
+              <div class="music-text">Diljit Dosanjh</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/bollywood central.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                Bollywood Central, jab baje toh seedha dil ke centre mein lage
+                🫶🏼
+              </div>
+              <div class="music-text">Cover - TBMAUJ</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/radar.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                Most exciting artists from the Indian Indie scene.
+              </div>
+              <div class="music-text">Cover: Saahel</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/indianrap.jpg" alt="" />
+              </div>
+              <div class="music-text">India's Rap Scene.</div>
+              <div class="music-text">Cover- Hanumankind</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/haryanvi.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                Biggest Haryanvi hits from the last 10 years.
+              </div>
+              <div class="music-text">Cover: Raju Punjabi</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/bestpanjabi.jpg" alt="" />
+              </div>
+              <div class="music-text">Ultimate 101 Punjabi Hits</div>
+              <div class="music-text">with Cheema Y & Gur Sidhu..</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/kollywood.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                Finest collection of Tamil Music from the past 10 years
+              </div>
+              <div class="music-text">Cover : Amaran</div>
+            </div>
+            <div class="music-card">
+              <div class="music-img">
+                <img src="assests/tollywood.jpg" alt="" />
+              </div>
+              <div class="music-text">
+                The finest set of Telugu music from the past 10 years.
+              </div>
+              <div class="music-text">Cover : Hi Nanna</div>
+            </div>
+          </div>
+
+          <div class="nav-footer">
+            <footer>
+              <div class="foot">
+                <div>
+                  <ul>
+                    <li>Company</li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">For the Record</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="foot">
+                <div>
+                  <ul>
+                    <li>Communities</li>
+                    <li><a href="">For Artist</a></li>
+                    <li><a href="">Developers</a></li>
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Investers</a></li>
+                    <li><a href="">Vendors</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="foot">
+                <div>
+                  <ul>
+                    <li>Useful Links</li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Free Mobile App</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="foot">
+                <div>
+                  <ul>
+                    <li>Spotify Plans</li>
+                    <li><a href="">Premium Individual</a></li>
+                    <li><a href="">Premium Duo</a></li>
+                    <li><a href="">Premium Family</a></li>
+                    <li><a href="">Premium Student</a></li>
+                    <li><a href="">Spotify Free</a></li>
+                  </ul>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+
+      <div class="music-player">
+        <div class="album">
+          <div class="album-img"><img src="assests/album.jpg" alt=""></div>
+          <div class="album-txt">
+            <div class="album-name txt1"><a href="">Bara Bada Bastu</a></div>
+          <div class="artist-name txt2"><a href="">KAJ</a></div>
+          </div>
+          <div class="album-add"><img src="assests/add_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+          
+        </div>
+        <div class="players">
+          <div class="player-controls">
+            <img src="assests/player_icon1.png" alt="" class="player-icon" />
+            <img src="assests/player_icon2.png" alt="" class="player-icon" />
+
+            <img src="assests/player_icon3.png" alt="" class="player-icon" style="opacity: 1; height: 2.5rem;"/>
+
+            <img src="assests/player_icon4.png" alt="" class="player-icon" />
+            <img src="assests/player_icon5.png" alt="" class="player-icon" />
+          </div>
+
+          <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input type="range" min="0" max="100" class="progress-bar" >
+            <span class="tot-time">3:33</span>
+          </div>
+        </div>
+        <div class="controls"></div>
+      </div>
+    </div>
+    
+  </body>
+  <script src="script.js"></script>
+</html>
