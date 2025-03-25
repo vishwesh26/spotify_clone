@@ -545,9 +545,23 @@ footer{
     margin-top: -6px;
 }
 
-.controls
-{
-    width: 25%;
+.control{
+    display: flex;
+    
+}
+.control-img{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.5rem;
+} 
+
+.same{
+    height:35px;
+    width: 35px;
+}
+
+.volume{
+    margin-right: 1rem;
 }
 
 /* Mobile devices (max-width: 600px) */
