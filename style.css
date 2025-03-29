@@ -547,23 +547,43 @@ footer{
 
 .control{
     display: flex;
-    
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 .control-img{
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: 1rem;
     margin-left: 0.5rem;
-} 
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
 
-.same{
-    height:35px;
-    width: 35px;
 }
 
-.volume{
+.progress-bar-volume{
     margin-right: 1rem;
+
 }
 
+.progress-bar-volume
+{
+    width: 35%;
+    appearance: none;
+}
+
+.progress-bar-volume::-webkit-slider-runnable-track
+{
+    background-color: #ddd;
+    height: 0.2rem;
+    border-radius: 1000px;
+}
+
+.progress-bar-volume::-webkit-slider-thumb
+{
+    appearance: none;
+
+}
 /* Mobile devices (max-width: 600px) */
 @media (max-width: 600px) {
     .navbar {
